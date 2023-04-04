@@ -110,13 +110,14 @@ public class NewViewProduto extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 51, 222));
+        jPanel1.setBackground(new java.awt.Color(153, 0, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(153, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Impact", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Produtos");
+        jLabel1.setText("PRODUTOS");
         jLabel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -131,7 +132,7 @@ public class NewViewProduto extends javax.swing.JFrame {
             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 51, 222));
+        jPanel2.setBackground(new java.awt.Color(153, 0, 0));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setPreferredSize(new java.awt.Dimension(2, 51));
 
@@ -182,7 +183,6 @@ public class NewViewProduto extends javax.swing.JFrame {
         });
         jPanel2.add(jButtonSair);
 
-        jPanel3.setBackground(new java.awt.Color(178, 191, 253));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jTextFieldDescricao.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -411,7 +411,7 @@ public class NewViewProduto extends javax.swing.JFrame {
         jLabel14.setText("Unid. de Venda*");
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel15.setText("Data de Cadatro");
+        jLabel15.setText("Data de Cadastro");
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel16.setText("Marca");
@@ -531,7 +531,7 @@ public class NewViewProduto extends javax.swing.JFrame {
                         .addComponent(jLabel15)
                         .addComponent(jTextFieldDataCad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jTextFieldMarca, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButtonBuscaMarca, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButtonBuscaMarca, javax.swing.GroupLayout.DEFAULT_SIZE, 24, Short.MAX_VALUE))
                 .addGap(7, 7, 7)
                 .addComponent(jComboStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(14, Short.MAX_VALUE))

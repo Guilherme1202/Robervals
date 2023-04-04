@@ -139,13 +139,13 @@ public class NewViewClasse extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 51, 222));
+        jPanel1.setBackground(new java.awt.Color(153, 0, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Impact", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Classe");
+        jLabel1.setText("CLASSE");
         jLabel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -160,7 +160,7 @@ public class NewViewClasse extends javax.swing.JFrame {
             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 51, 222));
+        jPanel2.setBackground(new java.awt.Color(153, 0, 0));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setPreferredSize(new java.awt.Dimension(2, 51));
 
@@ -211,7 +211,6 @@ public class NewViewClasse extends javax.swing.JFrame {
         });
         jPanel2.add(jButtonSair);
 
-        jPanel3.setBackground(new java.awt.Color(178, 191, 253));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jTextDescricao.setHorizontalAlignment(javax.swing.JTextField.CENTER);

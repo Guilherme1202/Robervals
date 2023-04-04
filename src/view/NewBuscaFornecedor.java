@@ -67,11 +67,12 @@ public class NewBuscaFornecedor extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jLabelTitulo.setBackground(new java.awt.Color(0, 51, 222));
-        jLabelTitulo.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabelTitulo.setForeground(new java.awt.Color(0, 51, 222));
+        jPanelTitulo.setBackground(new java.awt.Color(153, 0, 0));
+
+        jLabelTitulo.setFont(new java.awt.Font("Impact", 0, 24)); // NOI18N
+        jLabelTitulo.setForeground(new java.awt.Color(255, 255, 0));
         jLabelTitulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo.setText("Buscar Fornecedor");
+        jLabelTitulo.setText("BUSCA FORNECEDOR");
         jLabelTitulo.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         javax.swing.GroupLayout jPanelTituloLayout = new javax.swing.GroupLayout(jPanelTitulo);
