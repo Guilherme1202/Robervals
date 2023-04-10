@@ -122,6 +122,11 @@ public class NewBuscaCondPgto extends javax.swing.JDialog {
 
         jButtonCarregar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Find.png"))); // NOI18N
         jButtonCarregar.setText("Carregar");
+        jButtonCarregar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonCarregarActionPerformed(evt);
+            }
+        });
 
         jButtonSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Forward.png"))); // NOI18N
         jButtonSair.setText("Sair");
@@ -168,6 +173,10 @@ public class NewBuscaCondPgto extends javax.swing.JDialog {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButtonCarregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCarregarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonCarregarActionPerformed
 
     /**
      * @param args the command line arguments
