@@ -737,7 +737,7 @@ public class NewViewFornecedor extends javax.swing.JFrame {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 51, 222));
+        jPanel2.setBackground(new java.awt.Color(153, 0, 0));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setPreferredSize(new java.awt.Dimension(2, 51));
 

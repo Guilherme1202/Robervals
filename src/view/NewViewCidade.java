@@ -377,15 +377,15 @@ public class NewViewCidade extends javax.swing.JFrame {
                // TODO add your handling code here:
     }//GEN-LAST:event_jButtonSairActionPerformed
 
-    private void TxtIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtIdActionPerformed
-
-  // TODO add your handling code here:
-   TxtId.setText("Id");
-    }//GEN-LAST:event_TxtIdActionPerformed
-
     private void jButtonBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBuscarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonBuscarActionPerformed
+
+    private void TxtIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtIdActionPerformed
+
+        // TODO add your handling code here:
+        TxtId.setText("Id");
+    }//GEN-LAST:event_TxtIdActionPerformed
 
     /**
      * @param args the command line arguments
