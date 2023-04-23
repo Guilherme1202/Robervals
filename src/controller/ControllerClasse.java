@@ -8,7 +8,7 @@ import model.bo.Classe;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
-import model.DAO.ClasseDAO;
+import DAO.ClasseDAO;
 import view.NewBuscaClasse;
 import view.NewViewClasse;
 

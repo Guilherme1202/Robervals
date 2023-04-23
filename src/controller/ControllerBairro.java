@@ -8,7 +8,7 @@ import model.bo.Bairro;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
-import model.DAO.BairroDAO;
+import DAO.BairroDAO;
 import view.NewBuscaBairro;
 import view.NewViewBairro;
 

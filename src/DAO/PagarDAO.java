@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model.DAO;
+package DAO;
 
 import java.util.List;
 import model.bo.Pagar;
@@ -12,7 +12,7 @@ import model.bo.Pagar;
  *
  * @author aluno
  */
-public class PagarDAO implements InterfaceDAO<model.bo.Pagar> {
+public class PagarDAO implements InterfaceDAO<Pagar> {
 
     @Override
     public void create(Pagar objeto) {

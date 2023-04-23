@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model.DAO;
+package DAO;
 
 import java.util.List;
 import model.bo.CondicaoPgto;
@@ -12,7 +12,7 @@ import model.bo.CondicaoPgto;
  *
  * @author aluno
  */
-public class CondicaoPgtoDAO implements InterfaceDAO<model.bo.CondicaoPgto> {
+public class CondicaoPgtoDAO implements InterfaceDAO<CondicaoPgto> {
 
     @Override
     public void create(CondicaoPgto objeto) {

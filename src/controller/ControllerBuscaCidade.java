@@ -4,7 +4,7 @@ package controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.table.DefaultTableModel;
-import model.DAO.CidadeDAO;
+import DAO.CidadeDAO;
 import model.bo.Cidade;
 import view.NewBuscaCidade;
 

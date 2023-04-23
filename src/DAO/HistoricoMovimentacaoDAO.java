@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model.DAO;
+package DAO;
 
 import java.util.List;
 import model.bo.HistoricoMovimentacao;
@@ -12,7 +12,7 @@ import model.bo.HistoricoMovimentacao;
  *
  * @author aluno
  */
-public class HistoricoMovimentacaoDAO implements InterfaceDAO<model.bo.HistoricoMovimentacao> {
+public class HistoricoMovimentacaoDAO implements InterfaceDAO<HistoricoMovimentacao> {
 
     @Override
     public void create(HistoricoMovimentacao objeto) {

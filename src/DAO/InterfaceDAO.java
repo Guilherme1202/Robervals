@@ -1,5 +1,5 @@
 
-package model.DAO;
+package DAO;
 
 import java.util.List;
 

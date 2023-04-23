@@ -1,15 +1,15 @@
-package model.DAO;
+package DAO;
 
 import java.sql.Connection;
 import java.util.List;
-import model.DAO.ConnectionFactory;
+import DAO.ConnectionFactory;
 import model.bo.Bairro;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
-public class BairroDAO implements InterfaceDAO<model.bo.Bairro> {
+public class BairroDAO implements InterfaceDAO<Bairro> {
 
     @Override
     public void create(Bairro objeto) {

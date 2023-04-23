@@ -1,8 +1,7 @@
-package model.DAO;
+package DAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
@@ -12,11 +11,12 @@ public class ConnectionFactory {
     private static final String driver = "com.mysql.jdbc.Driver";
     private static final String banco = "jdbc:mysql://localhost:3306/retaguarda";
     private static final String user = "root";
-    private static final String senha = "ifsc";
+    private static final String senha = "123456789";
 
     public static Connection getConnection() {
         //MysqlDataSource mySqlDataSource;
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(banco + "?verifyServerCertificate=false"
                     + "&useSSL=false"
                     + "&requireSSL=false"
