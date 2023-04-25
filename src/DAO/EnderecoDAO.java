@@ -1,8 +1,7 @@
-package model.DAO;
+package DAO;
 
 import java.sql.Connection;
 import java.util.List;
-import model.DAO.ConnectionFactory;
 import model.bo.Endereco;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 import model.bo.Bairro;
 import model.bo.Cidade;
 
-public class EnderecoDAO implements InterfaceDAO<model.bo.Endereco> {
+public class EnderecoDAO implements InterfaceDAO<Endereco> {
 
     @Override
     public void create(Endereco objeto) {

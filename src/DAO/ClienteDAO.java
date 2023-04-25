@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package model.DAO;
+package DAO;
 
 import java.util.List;
 import model.bo.Cliente;
@@ -11,7 +11,7 @@ import model.bo.Cliente;
  *
  * @author Trabalho
  */
-public class ClienteDAO implements InterfaceDAO<model.bo.Cliente> {
+public class ClienteDAO implements InterfaceDAO<Cliente> {
 
     @Override
     public void create(Cliente objeto) {

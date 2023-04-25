@@ -7,7 +7,7 @@ package controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
-import model.DAO.EnderecoDAO;
+import DAO.EnderecoDAO;
 import model.bo.Cliente;
 import static controller.ControllerEndereco.codigoEnd;
 import model.bo.Endereco;

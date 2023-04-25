@@ -8,7 +8,7 @@ import model.bo.Cidade;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
-import model.DAO.CidadeDAO;
+import DAO.CidadeDAO;
 import view.NewBuscaCidade;
 import view.NewViewCidade;
 

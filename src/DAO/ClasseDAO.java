@@ -3,28 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model.DAO;
+package DAO;
 
 
 import java.sql.Connection;
 import java.util.List;
-import model.DAO.ConnectionFactory;
 import model.bo.Classe;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 
 
 /**
  *
  * @author aluno
  */
-public class ClasseDAO implements InterfaceDAO<model.bo.Classe> {
+public class ClasseDAO implements InterfaceDAO<Classe> {
 
     @Override
     public void create(Classe objeto) {

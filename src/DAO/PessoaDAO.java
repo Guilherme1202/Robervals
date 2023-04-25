@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package model.DAO;
+package DAO;
 
 import java.util.List;
 import model.bo.Pessoa;
@@ -12,7 +12,7 @@ import model.bo.Pessoa;
  *
  * @author aluno
  */
-public class PessoaDAO implements InterfaceDAO<model.bo.Pessoa> {
+public class PessoaDAO implements InterfaceDAO<Pessoa> {
 
     @Override
     public void create(Pessoa objeto) {

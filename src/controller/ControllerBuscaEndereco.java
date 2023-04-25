@@ -4,7 +4,7 @@ package controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.table.DefaultTableModel;
-import model.DAO.EnderecoDAO;
+import DAO.EnderecoDAO;
 import model.bo.Endereco;
 import view.NewBuscaEndereco;
 //import static newmarket22.controller.ControllerEndereco.codigoEnd;
